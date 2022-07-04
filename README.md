@@ -1,6 +1,8 @@
 # Angryturtle
 First assignment for Robotics course @ USI 21/22.
 
+**Final Score:** 9,5/10
+
 ## Prerequisites
 - Python 3
 - ROS2 (Galactic)
