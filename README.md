@@ -19,8 +19,22 @@ ROS2 node that controls a turtle in **turtlesim**:
 Make sure to meet the Prerequisites
 
 Clone the repository in your workspace.
+
 The execution can be started simply using the following command:
 
 ```
   $ ros2 launch angry_turtle angry_turtle.launch.py
 ```
+
+The file `angry_turtle.launch.py` is a launch file that contains the instruction to configure the two nodes required: the `turtlesim_node` and the node `angry_turtle_node.py` that contains the implemented controller.
+
+Alternatively, it is possible to start the simulation as follows:
+
+In one terminal launch the turtlesim node
+
+In the oder terminal type:
+
+```
+  $ ros2 run angry_turtle angry_turtle_node
+```
+
